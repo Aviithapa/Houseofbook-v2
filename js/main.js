@@ -9,8 +9,6 @@ $(document).ready(function () {
   $(".myslider").owlCarousel({
     items: 1,
     nav: false,
-    dots: true,
-    dotsData: true,
     autoplay: true,
     autoplayTimeout: 3000,
   });

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <link rel="icon" href="./image/logo.png">
+        <title>
+           House of Books | Index
+        </title>
         <link href="css/style.css" rel="stylesheet">
         <link href="css/fontawesome/css/fontawesome.css" rel="stylesheet">
         <link href="css/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -14,11 +17,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <!-- Top Header -->
       <div class="top-header">
-        <div class="container-fluid">
+        <div class="container">
             <ul class="menu-header-support">
-                <li class="customer-support menu-item menu-item-type-custom menu-item-object-custom menu-item-5277"><a title="9867739191" href="tel:9867739191">9867739191</a></li>
-                <li class="customer-support menu-item menu-item-type-custom menu-item-object-custom menu-item-5277"><a title="houseofbooks@gmail.com" href="houseofbooks@gmail.com">houseofbooks@gmail.com</a></li>
+                <li class="customer-support menu-item menu-item-type-custom menu-item-object-custom menu-item-5277"><a title="9867739191" href="tel:9867739191">Welcome to House of Books</a></li>
+                <!-- <li class="customer-support menu-item menu-item-type-custom menu-item-object-custom menu-item-5277"><a title="houseofbooks@gmail.com" href="houseofbooks@gmail.com">houseofbooks@gmail.com</a></li> -->
                 </ul>
             <ul class="menu-top-bar-right">
                     <li class="customer-support menu-item menu-item-type-custom menu-item-object-custom menu-item-5277"><a title="Store Locator" href="#"><i class="fas fa-map-marker-alt"></i>Store Locator</a></li>
@@ -28,210 +32,257 @@
             </ul>
          </div>
       </div>
+      <!-- End Top Header -->
+
+      <!-- Middle Header -->
       <header>
-          <div class="container-fluid ">
-                <div class="row">
-                    <div class="col-md-2">
+          <!-- Logo Header -->
+          <div class="container mt-2">
+                <div class="flex-container">
+                    <div class="flex-container-logo">
                       <div class="logo">
-                          <img src="" alt="HouseofBooks">
+                          <img src="./image/logo.png" alt="HouseofBooks" > 
                       </div>
+                      
                     </div>
-                    <div class="col-md-7">
+                    <div class="flex-container-menu">
+                          <img src="./image/Icons/Menu.png" alt="HouseofBooksMenu">
+                    </div>
+                    <div class="flex-container-search">
                         <form class="navbar-search col" method="get" action="" autocomplete="off">
                             <label class="sr-only screen-reader-text visually-hidden" for="search">Search for:</label>
                             <div class="input-group">
                             <div class="input-search-field">
-                            <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for Products" autocomplete="off">
+                                 <input type="text" id="search" class="form-control search-field product-search-field" dir="ltr" value="" name="s" placeholder="Search for Products" autocomplete="off">
                             </div>
                             <div class="input-group-addon search-categories d-flex">
                             <select name="product_cat" id="electro_header_search_categories_dropdown" class="postform resizeselect">
-                            <option value="0" selected="selected">All Categories</option>
-                            <option class="level-0" value="accessories">Accessories</option>
-                            <option class="level-0" value="cameras-photography">Cameras &amp; Photography</option>
-                            <option class="level-0" value="computer-components">Computer Components</option>
+                                    <option value="0" selected="selected">All Categories</option>
+                                    <option class="level-0" value="accessories">Accessories</option>
+                                    <option class="level-0" value="cameras-photography">Cameras &amp; Photography</option>
+                                    <option class="level-0" value="computer-components">Computer Components</option>
                             </select>
                             </div>
-                            <div class="input-group-btn">
-                            <button type="submit" class="btn btn-secondary"><i class="fas  fa-search"></i></button>
-                            </div>
+                                <div class="input-group-btn">
+                                   <button type="submit" class="btn btn-secondary"><i class="fas  fa-search"></i></button>
+                                </div>
                             </div>
                             </form>
                     </div>
-                    <div class="col-md-2 icons">
-                       <ul>
-                        <li><a title="Track Your Order" href="https://electro.madrasthemes.com/track-your-order/"><i class="fas fa-dolly"></i></a></li>
-                        <li><a title="My Account" href="https://electro.madrasthemes.com/my-account/"><i class="fas fa-user fa-2x"></i></a></li>
-                        <li><a title="Shop" href="https://electro.madrasthemes.com/shop/"><i class="fas fa-shopping-bag fa-2x"></i></a></li>
+                    <div class="flex-container-icons">
+                         
+                            <ul class="cart-header" style="margin-left: 10px;">
+                                <li class=""><a title="Track Your Order" href=""><img src="./image/Icons/Compare.png"></a></li>
+                                <li class=""><a title="Track Your Order" href=""><img src="./image/Icons/Whishlist.png"></a></li>
+                                <li class=""><a title="Track Your Order" href=""><img src="./image/Icons/Account-1.png"></i></a></li>
+                                <li class=""><a title="Track Your Order" href=""><img src="./image/Icons/Cart.png"></a></li><span class="price-list">Rs 0.00</span>
+                            </ul>
+                        
                       
-                         </ul>
                     </div>
                 </div>
           </div>
-      </header>
+<!-- End Logo Header -->
 
+
+
+       <!-- Nav Header -->
+          <div class="mt-3">
+          <div class="navbar-hob container ">
+            <nav class='animated bounceInDown'>
+                <ul>
+                    <li class="category"> <a href='#profile' class="category"> All Book Categories</a></li>
+                    <li><a href='#message'><span class="sidemenu">Value of the Day</span></a></li>
+                    <li><a href='#message'><span class="sidemenu">Top 100 offer</span></a></li>
+                    <li><a href='#message'><span class="sidemenu">New Book Arrivals</span></a></li>
+                    <li class='sub-menu'><a href='#settings'>Coursebook<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>Account</a></li>
+                            <li><a href='#settings'>Profile</a></li>
+                            <li><a href='#settings'>Secruity &amp; Privacy</a></li>
+                            <li><a href='#settings'>Password</a></li>
+                            <li><a href='#settings'>Notification</a></li>
+                        </ul>
+                    </li>
+                    <li class='sub-menu'><a href='#message'>Question Bank & Solution<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>FAQ's</a></li>
+                            <li><a href='#settings'>Submit a Ticket</a></li>
+                            <li><a href='#settings'>Network Status</a></li>
+                        </ul>
+                    </li>
+                    <li class='sub-menu'><a href='#message'>Medical Exam Preparation<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>FAQ's</a></li>
+                            <li><a href='#settings'>Submit a Ticket</a></li>
+                            <li><a href='#settings'>Network Status</a></li>
+                        </ul>
+                    </li>
+                    <li class='sub-menu'><a href='#message'>LokSewa Exam Preparation<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>FAQ's</a></li>
+                            <li><a href='#settings'>Submit a Ticket</a></li>
+                            <li><a href='#settings'>Network Status</a></li>
+                        </ul>
+                    </li>
+                    <li class='sub-menu'><a href='#message'>Novels and Literatures<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>FAQ's</a></li>
+                            <li><a href='#settings'>Submit a Ticket</a></li>
+                            <li><a href='#settings'>Network Status</a></li>
+                        </ul>
+                    </li>
+                    <li class='sub-menu'><a href='#message'>Secondhand Books<div class='fa fa-caret-right right'></div></a>
+                        <ul class="side-block">
+                            <li><a href='#settings'>FAQ's</a></li>
+                            <li><a href='#settings'>Submit a Ticket</a></li>
+                            <li><a href='#settings'>Network Status</a></li>
+                        </ul>
+                    </li>
+                    <li></li>
+                </ul>
+            </nav>
+            <nav class="horizontal-navbar">
+                <ul class="horizontal-ul">
+                    <span class="horizontal-li dropdown"><a href="#home" class="active dropbtn">All Pages <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="horizontal-submenu">
+                                    <li>Home and Static Page</li>
+                                    <li class="horizontal-submenu-link"><a href="#">Link 1</a></li>
+                                    <li  class="horizontal-submenu-link"><a href="#">Link 1</a></li>
+                                    <li  class="horizontal-submenu-link"><a href="#">Link 1</a></li>
+                                    <li  class="horizontal-submenu-link"><a href="#">Link 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>Home and Static Page</span>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <span>Home and Static Page</span>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                    <li><a href="#">Link 1</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                      </div>
+                    </span>
+                    <span class="horizontal-li"><a href="#news">Featured Books</a></span>
+                        <span class="horizontal-li"><a href="#contact">Trending Books</a></span>
+                            <span class="horizontal-li"><a href="#about">Gift Vouchers</a></span>
+                            <span class="horizonta-li" style="float: right;"><a href="#">Free Shipping up to Rs 1000</a></span>
+                  </ul>
+              </nav>
+            </div>
+            
+          </div>
+          <!-- End Nav Header -->
+      </header>
+      <!-- End Header -->
+
+
+       <!-- Slider -->
       <div class="slider">
           <div class="container">
-                <nav class='animated bounceInDown'>
-                    <ul>
-                        <li ><a href='#profile' class="active">View All</a></li>
-                        <li><a href='#message'>Messages</a></li>
-                        <li class='sub-menu'><a href='#settings'>Settings<div class='fa fa-caret-right right'></div></a>
-                            <ul class="side-block">
-                                <li><a href='#settings'>Account</a></li>
-                                <li><a href='#settings'>Profile</a></li>
-                                <li><a href='#settings'>Secruity &amp; Privacy</a></li>
-                                <li><a href='#settings'>Password</a></li>
-                                <li><a href='#settings'>Notification</a></li>
-                            </ul>
-                        </li>
-                        <li class='sub-menu'><a href='#message'>Help<div class='fa fa-caret-right right'></div></a>
-                            <ul class="side-block">
-                                <li><a href='#settings'>FAQ's</a></li>
-                                <li><a href='#settings'>Submit a Ticket</a></li>
-                                <li><a href='#settings'>Network Status</a></li>
-                            </ul>
-                        </li>
-                        <li><a href='#message'>Logout</a></li>
-                    </ul>
-                </nav>
                 <div class="myslider owl-carousel owl-theme">
                     <div class="item" data-dot="">
-                      <img src="https://placeimg.com/720/350/nature">
+                        <div class="a" >
+                            <h4 class="animated bounce">SHOP TO GET WHAT YOU LOVE</h4>
+                            <h2 class="animated bounce">BOOKS THAT MAKE <br>A STATEMENT <br>UP TO 20% OFF</h3>
+                            <button class="btn-round">START BUYING</button>
+                        </div>
+                      <img  class="animated bounce" src="./image/Books/asdasdad.png">
                     </div>
                     <div class="item" data-dot="">
-                      <img src="https://placeimg.com/720/350/animal">
+                        <div class="a">
+                            <h4 class="animated bounce">SHOP TO GET WHAT YOU LOVE</h4>
+                            <h2 class="animated bounce">BOOKS THAT MAKE <br>A STATEMENT <br>UP TO 20% OFF</h3>
+                            <button class="btn-round">START BUYING</button>
+                        </div>
+                      <img class="animated bounce" src="./image/Books/asdasdad.png">
                     </div>
                     <div class="item" data-dot="">
-                      <img src="https://placeimg.com/720/350/tech">
+                        <div class="a">
+                            <h4 class="animated bounce">SHOP TO GET WHAT YOU LOVE</h4>
+                            <h2 class="animated bounce">BOOKS THAT MAKE <br>A STATEMENT <br>UP TO 20% OFF</h3>
+                            <button class="btn-round">START BUYING</button>
+                        </div>
+                      <img class="animated bounce" src="./image/Books/asdasdad.png">
                     </div>
                 </div>
               </div>
           </div>
 
-          <div class="deals-of-day">
-                <div class="deals-top-header">
-                    <div class="container">
-                        <h3>Deals of the Day</h3>
-                    </div>
+          <!-- End Slider -->
+
+          <!-- Feature Products -->
+          <div class="Feature-Products container">
+                <div class="feature-item">
+                    <img src="./image/Books/asset-1.png" alt="Houseofbooks"/>
+                    <span>CATCH BIG <br> <b>DEALS</b>  ON VARIOUS COURSE BOOKS <br> <a href="#">Shop Now <i class="fa fa-caret-right right"></i></a></span>
                 </div>
-                <div class="container">
-                <div class="productslider owl-carousel owl-theme mt-5">
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="products-view">
-                                <div class="products-header">
-                                <span>Coursebook</span>
-                                <h4>Abhishek Thapas</h4>
-                                </div>
-                                <div class="product-image">
-                                    <img src="https://placeimg.com/720/350/nature" alt="">
-                                </div>
-                                <div class="product-details">
-                                       <ul>
-                                           <li>Rs. 200</li>
-                                           <li class="cart">cart</li>
-                                       </ul>
-                                </div>
-                         </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item" data-dot="">
-                        <div class="product">
-                            <div class="product-header">
-
-                            </div>
-                            <div class="product-image">
-                                <img src="https://placeimg.com/720/350/nature" alt="">
-                            </div>
-                            <div class="product-details">
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="feature-item">
+                    <img src="./image/Books/asset-1.png" alt="Houseofbooks"/>
+                    <span>CATCH BIG <br> <b>DEALS</b>  ON VARIOUS COURSE BOOKS <br> <a href="#">Shop Now <i class="fa fa-caret-right right"></i></a></span>
                 </div>
+                <div class="feature-item">
+                    <img src="./image/Books/asset-1.png" alt="Houseofbooks"/>
+                    <span>CATCH BIG <br> <b>DEALS</b>  ON VARIOUS COURSE BOOKS <br> <a href="#">Up to: 20%OFF <i class="fa fa-caret-right right"></i></a></span>
+                </div>
+                <div class="feature-item">
+                    <img src="./image/Books/asset-1.png" alt="Houseofbooks"/>
+                    <span>CATCH BIG <br> <b>DEALS</b>  ON VARIOUS COURSE BOOKS <br> <a href="#">Shop Now <i class="fa fa-caret-right right"></i></a></span>
                 </div>
           </div>
-          <div class="">
-              Hello this is abhishek
-          </div>
+          <!-- End Features Products -->
+
+
+          <!-- Special , Feature , Sale, Top Rated Books-->
+                 <section class="content"> 
+                     <div class="container">
+                          <div class="special-offer">
+                             <div class="special-product">
+                                 <h3>Special Offer</h3>
+                                 <div class="product-content">
+                                    <img src="./image/Books/asset-1.png" alt="Houseofbooks"><br>
+                                    <strong>OLD IS GOLD | BBS FIRST YEAR</strong><br>
+                                    <span>RS 174 <strike>Rs 230</strike></span>
+                                    <p>Hurry up offer Ends in:</p>
+                                    <div class="time">
+                                        <span>6</span> : 
+                                        <span>00</span> :
+                                        <span>00</span>
+                                    </div>
+                                 </div> 
+                             </div>
+                          </div>
+                          <div class="category-products">
+                                <div class="product-header">
+                                    
+                                </div>
+                          </div>
+                     </div>
+                 </section>
+          <!-- End Section -->
     </body>
     <script src="js/main.js"></script>
     <script src="jquery.min.js"></script>
