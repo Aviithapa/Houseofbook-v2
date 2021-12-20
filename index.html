@@ -261,16 +261,23 @@
                      <div class="container">
                           <div class="special-offer">
                              <div class="special-product">
-                                 <h3>Special Offer</h3>
+                                 <div class="special-product-header">
+                                    <h3>Special Offer</h3>
+                                    <div class="offer-price">
+                                        <span>Save <br><strong>25%</strong></span>
+                                    </div>
+                                 </div>
+                                 
                                  <div class="product-content">
                                     <img src="./image/Books/asset-1.png" alt="Houseofbooks"><br>
-                                    <strong>OLD IS GOLD | BBS FIRST YEAR</strong><br>
-                                    <span>RS 174 <strike>Rs 230</strike></span>
-                                    <p>Hurry up offer Ends in:</p>
+                                    <strong>OLD IS GOLD | BBS FIRST YEAR</strong><br><br>
+                                    <span class="price">RS 174 </span> <strike>Rs 230</strike><br>
+                                    <span class="time-word">Hurry up offer ends in:</span>
                                     <div class="time">
-                                        <span>6</span> : 
-                                        <span>00</span> :
-                                        <span>00</span>
+                                      
+                                        <span id="hour"></span> : 
+                                        <span id="minute"></span> :
+                                        <span id="second"></span>
                                     </div>
                                  </div> 
                              </div>
@@ -478,7 +485,235 @@
               <section>
                    <div class="category-content">
                         <div class="container">
-                            
+                            <div class="books-category-header">
+                                <div class="tab">
+                                    <button class="tablink active" onclick="CategoryBook(event, 'BestDeals')">Best Deals</button>
+                                    <button class="tablink" onclick="CategoryBook(event, 'Coursebook')">Course Books</button>
+                                    <button class="tablink" onclick="CategoryBook(event, 'Questionbank')">Question Banks</button>
+                                    <button class="tablink" onclick="CategoryBook(event, 'SolutionSets')">Solution Sets</button>
+                                    <button class="tablink" onclick="CategoryBook(event, 'Loksewa')">Lok Sewa Exam Preparation Book</button>
+                                    <button class="tablink" onclick="CategoryBook(event, 'MedicalExam')">Medical Exam Preparation</button>
+                                  </div>
+                                </div>
+                            <div id="BestDeals" class="tabcontents" style="display: block;">
+                                <div class="category-book-container">
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item-1">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="category-book-item">
+                                        <span>Coursebook</span>
+                                        <p>Pu BBA 3rd Semester-Business Statistics</p>
+                                        <img src="./image/Books/Entrepreneurship MBS Third Semester English - Nepali -1.png"/>
+                                        <div class="price">
+                                            <div class="pricelist">
+                                                Rs 495.00
+                                            </div>
+                                            <div class="cart">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="Whishlist">
+                                            <div class="wishlist">
+                                                <i class="fas fa-heart">Whishlist</i>
+                                            </div>
+                                            <div class="compare">
+                                                <i class="fas fa-equal">Compare</i>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                  </div>
+                          </div>
+                          
+                          <div id="Coursebook" class="tabcontents">
+                        
+                          </div>
+                          
+                          <div id="Questionbank" class="tabcontents">
+
+                          </div>
+                          <div id="SolutionSets" class="tabcontents">
+
+                        </div>
+                        <div id="Loksewa" class="tabcontents">
+
+                        </div>
+                        <div id="MedicalExam" class="tabcontents">
+
+                        </div>
                         </div>
                    </div>
               </section>
