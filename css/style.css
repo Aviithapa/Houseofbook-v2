@@ -548,11 +548,16 @@ nav ul li ul li a:hover {
 /* End Feature Products */
 
 /* Special Offers Products */
+.content{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
 .special-offer{
   display: block;
   float: left;
   width: 30%;
-  height: auto;
+  height: 600px;
   padding: 10px;
 }
  .special-product{
@@ -573,11 +578,130 @@ nav ul li ul li a:hover {
     display: block;
     float: left;
     width: 70%;
-    height: auto;
+    height: 600px;
 }
 .category-products .product-header{
     border-bottom: 1px solid #000;
 }
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-left: 40px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    border-bottom: 5px solid #FF8800;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border-bottom: 5px solid #FF8800;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 0px;
+    border-top: none;
+  }
+  .product-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .product-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5px;
+    padding: 0px 20px;
+    position: relative;
+  }
+  .product-item span{
+    font-size: 12px;
+  }
+  .product-item p{
+    font-size: 14px;
+    font-weight: 600;
+  }
+ .product-item img{
+   margin-top: -20px;
+ }
+  
+  .price {
+    width: 100%;
+    height: 40px;
+  }
+  .pricelist{
+   width: 50%;
+   font-size: 18px;
+   float: left;
+   padding-left: 10px;
+  }
+  .cart{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+  }
+  .cart i{
+    border-radius: 55%;
+    background-color: #eeefff;
+    padding:5px;
+    font-size: 14px;
+    color: #fff;
+  }
+  .Whishlist {
+    display: none;
+    width: 100%;
+    border-top: 1px solid #eee;
+    color: #FF2200;
+  }
+  .wishlist{
+   width: 50%;
+   font-size: 14px;
+   float: left;
+  }
+  .compare{
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+  .product-item:hover .Whishlist {
+    display: block;
+  }
+  .product-item:hover {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    position: relative;
+    -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1);
+  }
+  .product-item:hover .cart i{
+    background-color: #FF8800;
+  }
 /* End Special Offers Products */
 
-
+/* category-content */
+.category-content{
+    width: 100%;
+    background-color: #efefee;
+    height: 100px;
+}
+/* End category-content */
