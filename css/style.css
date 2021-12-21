@@ -750,10 +750,11 @@ nav ul li ul li a:hover {
     width: 100vw;
     background-color: #efefee;
     height: fit-content;
+    padding: 20px;
 }
  .books-category-header{
    border-bottom: 1px solid #000;
-   margin-top: 10px;
+   
  }
  .books-category-header  .tablink{
    font-size: 12px;
@@ -766,20 +767,53 @@ nav ul li ul li a:hover {
  }
  .category-book-container{
    display: grid;
-   grid-template-columns: auto auto auto auto auto;
+   grid-template-columns: 18% 18% auto auto 18% 18%;
+   margin-top: 15px;
  }
  .category-book-item-1{
-  
-grid-column-start:3;
-grid-column-end:3;
+  grid-column-start:3;
+  grid-column-end:5;
   grid-row-start: 1;
   grid-row-end: 4;
-
+  padding: 20px;
+  background-color:  rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  border-top: none;
+  border-bottom: none;
+ }
+ .category-book-item-1 img{
+   justify-items: center;
+   width: 115%;
+   height: auto;
+   margin-left: -30px;
+   margin-top: 5px;
  }
  .category-book-item {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 0px 20px;
+  padding: 5px 20px;
   position: relative;
+}
+.category-book-item:nth-last-child(5) {
+  border-right: none;
+}
+.category-book-item:nth-last-child(4) {
+  border-left: none;
+  border-bottom: none;
+}
+.category-book-item:nth-last-child(3) {
+  border-left: none;
+  border-bottom: none;
+}
+.category-book-item:nth-last-child(2) {
+  border-bottom: none;
+}
+.category-book-item:nth-last-child(1) {
+  border-right: none;
+  border-bottom: none;
+}
+.category-book-item{
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 .category-book-item span{
   font-size: 12px;
@@ -793,5 +827,146 @@ grid-column-end:3;
  height: 150px;
  width: 150px;
 }
+.category-book-item:hover .Whishlist {
+  display: block;
+}
+.category-book-item:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  position: relative;
+  -ms-transform: scale(0.5); /* IE 9 */
+-webkit-transform: scale(0.5); /* Safari 3-8 */
+transform: scale(1);
+}
+.category-book-item:hover .cart i{
+  background-color: #FF8800;
+}
 
+
+.category-book-item-1:hover .Whishlist {
+  display: block;
+}
+.category-book-item-1:hover {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  position: relative;
+  border-top: none;
+  border-bottom: none;
+  -ms-transform: scale(0.5); /* IE 9 */
+-webkit-transform: scale(0.5); /* Safari 3-8 */
+transform: scale(1);
+}
+.cart-button{
+  background-color: #FF8800;
+  border-radius: 20px;
+  border:none;
+  font-size: 12px;
+  font-weight: 600;
+  padding:5px;
+  color: white;
+}
+.cart-button i{
+ background-color: #FF8800;
+}
 /* End category-content */
+
+/* Add Section */
+  .add img{
+    width: 100%;
+    height: 100%; 
+    margin-top: 20px; 
+  }
+/* End Add Section */
+
+
+/* Recently Added */
+.reacently-added-header{
+  border-bottom: 1px solid #000;
+  padding:5px 0px;
+  margin-top: 10px;
+}
+.reacently-added-header span{
+  border-radius: 2px;
+  border-bottom: 5px solid #FF8800;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+.recently-added-content{
+  display: grid;
+   grid-template-columns:auto auto auto auto ;
+   padding: 10px;
+}
+
+.recently-added-item {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 45%  55%;
+  border-right: 1px solid #000;
+  margin:10px;
+}
+.recently-added-item img{
+  width: 175px;
+  height: auto;    
+  margin-left: -20px;  
+} 
+.recently-added-item span{
+  font-size: 12px;
+  margin-top: 25px;
+}
+.recently-added-item span a{
+  margin-top: 20px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.recently-added-item .recently-added-price{
+  font-size: 18px;
+  color: #FF8800;
+}
+.recently-added-item:hover .cart i{
+  background-color: #FF8800;
+
+}
+
+.recently-added-item:nth-last-child(1) {
+  border-right: none;
+}
+.recently-added-item:nth-last-child(5) {
+  border-right: none;
+}
+/* End Recently Added Section */
+
+/* Partner Publication */
+.partner-publication{
+  margin-top: 10px;
+  border-bottom: 1px solid #000;
+}
+.partner-publication-header{
+ border-bottom: 1px solid #000;  
+ text-align: center;
+}
+
+.partner-publication-header span{
+  border-bottom: 5px solid #FF8800;  
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 2px;
+ }
+ .publicationslide .item{
+  margin: 5px;
+  padding:10px;
+}
+.publicationslide .item img{
+  display: block;
+  width: 40% !important;
+  height:auto;
+}
+
+ .publicationslide {
+   height: 125px;
+ }
+
+/* End Partner Publication */
+
+/* Testomonials */
+
+/* End Testomonials */

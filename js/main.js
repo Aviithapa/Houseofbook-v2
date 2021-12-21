@@ -20,6 +20,13 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 8000,
   });
+  $(".publicationslide").owlCarousel({
+    items: 5,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    dots: false,
+  });
 });
 
 function openCity(evt, cityName) {
