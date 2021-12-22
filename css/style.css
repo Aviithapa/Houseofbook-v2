@@ -968,5 +968,115 @@ transform: scale(1);
 /* End Partner Publication */
 
 /* Testomonials */
+.testonomials-csr{
+  display: grid;
+  grid-template-columns:auto auto ;
+  margin-top: 20px;
+}
+.csr-activites, .testonomials{
+  margin: 15px 20px 15px 0px;
+}
+.csr-content, .testonomials-content{
+  display: grid;
+  grid-template-columns:auto auto ;
+  margin-top: 20px;
+}
+.csr-header span , .testonomials-header span{
+  border-bottom: 5px solid #FF8800;
+  font-size: 20px;
+  padding:5px 0px
+}
+.csr-header  , .testonomials-header {
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  padding:5px 0px;
+}
+.csr-content img, .testonomials-content img{
+  border-radius: 10px;
+  width: auto;
+  height: 200px;
+}
 
+.csr-content span, .testonomials-content span{
+   font-size: 20px;
+   font-weight: 600;
+   padding-left: 10px;
+   text-align: justify;
+}
 /* End Testomonials */
+
+/* Subscribe Section */
+.subscribe{
+  background-color: #FF8800;
+  width: 100vw;
+  height: 60px;
+}
+.subscribe-content{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+}
+.sign-up-words{
+  font-size: 24px;
+}
+.coupon-sign-up{
+  font-size: 20px;
+}
+.subscribe-btn{
+  background-color:  red !important;
+}
+/* End Subscribe Section */
+
+/* Footer */
+.footer{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  margin-top: 25px;
+}
+.footer img{
+  width: auto;
+  height: 90px;
+  margin-left: -15px;
+}
+.contact-footer{
+  display: grid;
+  grid-template-columns:15% auto ;
+}
+.contact-footer i{
+  font-size: 48px;
+  color: #FF8800;
+}
+
+.contact-footer span small{
+  font-size: 14px;
+  color: #ebebeb;
+  font-weight: 600;
+}
+
+.footer-short-link ul{
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+.footer-nav-link ul{
+  list-style-type: none;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.footer-payment-link ul{
+  list-style-type: none;
+  margin-left: -25px;
+}
+.footer-payment-link img{
+  width: 150px;
+  height: auto;
+ 
+}
+.social-media{
+  height: 40px !important;
+  margin-left:-8px !important;
+  margin-top: 10px;
+} 
+/* End Footer */
