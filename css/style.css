@@ -1152,6 +1152,8 @@ transform: scale(1);
   background-color: #ebebeb;
   padding: 10px;
 } 
+/* End Hero Header */
+/* Single Book Details */
 .book-details{
   display: grid;
   grid-template-columns:20% auto ;
@@ -1220,4 +1222,55 @@ transform: scale(1);
 .book-content-details-header{
   border-bottom: 1px solid #000;
 }
-/* End Hero Header */
+.book-content-description{
+  padding-left: 25px;
+}
+.book-content-description li{
+  list-style: none;
+  display: list-item;
+}
+.book-content-price li{
+  font-weight: 700;
+  font-size: 20px;  
+}
+.original-price{
+  color: #f39636;
+}
+.book-content-add-to-cart .round{
+  border-radius: 25px;
+  padding: 7px 15px;
+}
+.book-content-add-to-cart button{
+ border: none;
+ background-color: #f39636;
+ color: whitesmoke;
+ font-weight: 600;
+}
+.book-content-add-to-cart input{
+  padding-left: 50px;
+  width: 120px;
+}
+/* End Single Book Details */
+
+/* Reviews */
+.Reviews-Book{
+ height: auto;
+ width: 100%;
+}
+.Reviews-Book-header{
+  text-align: center;
+}
+.Reviews-Book-header span{
+  border-bottom: 5px solid #f39636;
+  width: 100px;
+}
+.Reviews-Book-header span{
+  font-size: 24px;
+}
+.Reviews-Book-body{
+  border: 1px solid #000;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns:auto auto ;
+}
+/* End Reviews */
