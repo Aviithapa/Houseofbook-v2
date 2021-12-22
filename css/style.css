@@ -1273,4 +1273,7 @@ transform: scale(1);
   display: grid;
   grid-template-columns:auto auto ;
 }
+.Reviews-footer li{
+  display: inline;
+}
 /* End Reviews */
