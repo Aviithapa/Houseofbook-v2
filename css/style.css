@@ -23,7 +23,7 @@
     --bs-gray: #6c757d;
     --bs-ec-dark: #181818;
     --bs-ec-dark-body: #d9d9d9;
-    --bs-primary: #FF8800;
+    --bs-primary: #f39636;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -305,7 +305,7 @@ nav ul li ul li{
 }
 nav ul li ul li a:hover {
 	background: #ebebeb;
-	border-left: 4px solid #FF8800;
+	border-left: 4px solid #f39636;
 }
 .side-block {
     width: 100%;
@@ -450,7 +450,7 @@ nav ul li ul li a:hover {
     margin: 0 3px;
   }
   .owl-dots button.owl-dot.active {
-    background-color: #FF8800 !important;
+    background-color: #f39636 !important;
     width: 30px;
     height: 10px;
     border-radius: 15%;
@@ -561,7 +561,7 @@ nav ul li ul li a:hover {
   padding: 10px;
 }
  .special-product{
-     border: 1px solid #FF8800;
+     border: 1px solid #f39636;
      border-radius: 10px;
      min-height: 400px;
      padding: 10px;
@@ -586,7 +586,7 @@ nav ul li ul li a:hover {
   text-align: center;
   color: white;
   font-weight: 600;
-  background-color: #FF8800;
+  background-color: #f39636;
 }
 .special-product-header .offer-price span{
   line-height: 1;
@@ -610,7 +610,7 @@ nav ul li ul li a:hover {
 }
 .product-content .price{
   font-size: 22px;
-  color: #FF8800;
+  color: #f39636;
 }
 .product-content p{
   font-size: 12px;
@@ -653,12 +653,12 @@ nav ul li ul li a:hover {
   
   /* Change background color of buttons on hover */
   .tab button:hover {
-    border-bottom: 5px solid #FF8800;
+    border-bottom: 5px solid #f39636;
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    border-bottom: 5px solid #FF8800;
+    border-bottom: 5px solid #f39636;
   }
   
   /* Style the tab content */
@@ -741,7 +741,7 @@ nav ul li ul li a:hover {
   transform: scale(1);
   }
   .product-item:hover .cart i{
-    background-color: #FF8800;
+    background-color: #f39636;
   }
 /* End Special Offers Products */
 
@@ -839,7 +839,7 @@ nav ul li ul li a:hover {
 transform: scale(1);
 }
 .category-book-item:hover .cart i{
-  background-color: #FF8800;
+  background-color: #f39636;
 }
 
 
@@ -857,7 +857,7 @@ transform: scale(1);
 transform: scale(1);
 }
 .cart-button{
-  background-color: #FF8800;
+  background-color: #f39636;
   border-radius: 20px;
   border:none;
   font-size: 12px;
@@ -866,7 +866,7 @@ transform: scale(1);
   color: white;
 }
 .cart-button i{
- background-color: #FF8800;
+ background-color: #f39636;
 }
 /* End category-content */
 
@@ -887,7 +887,7 @@ transform: scale(1);
 }
 .reacently-added-header span{
   border-radius: 2px;
-  border-bottom: 5px solid #FF8800;
+  border-bottom: 5px solid #f39636;
   font-size: 22px;
   padding-bottom: 5px;
 }
@@ -920,10 +920,10 @@ transform: scale(1);
 }
 .recently-added-item .recently-added-price{
   font-size: 18px;
-  color: #FF8800;
+  color: #f39636;
 }
 .recently-added-item:hover .cart i{
-  background-color: #FF8800;
+  background-color: #f39636;
 
 }
 
@@ -946,7 +946,7 @@ transform: scale(1);
 }
 
 .partner-publication-header span{
-  border-bottom: 5px solid #FF8800;  
+  border-bottom: 5px solid #f39636;  
   font-size: 22px;
   font-weight: 600;
   border-radius: 2px;
@@ -982,7 +982,7 @@ transform: scale(1);
   margin-top: 20px;
 }
 .csr-header span , .testonomials-header span{
-  border-bottom: 5px solid #FF8800;
+  border-bottom: 5px solid #f39636;
   font-size: 20px;
   padding:5px 0px
 }
@@ -1007,7 +1007,7 @@ transform: scale(1);
 
 /* Subscribe Section */
 .subscribe{
-  background-color: #FF8800;
+  background-color: #f39636;
   width: 100vw;
   height: 60px;
 }
@@ -1046,7 +1046,7 @@ transform: scale(1);
 }
 .contact-footer i{
   font-size: 48px;
-  color: #FF8800;
+  color: #f39636;
 }
 
 .contact-footer span small{
@@ -1080,3 +1080,144 @@ transform: scale(1);
   margin-top: 10px;
 } 
 /* End Footer */
+
+/* HOB EXPECT HOME PAGE NAV BAR */
+.navbar-main{
+  height: 60px;
+}
+.hob-main-navbar{
+ 
+  background-color: #f39636;
+  width: 100vw;
+}
+.hob-main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hob-main-nav li {
+  float: left;
+}
+
+.hob-main-nav li  {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  padding: 14px 16px;
+  background-color: #f39636;
+  text-decoration: none;
+}
+.hob-main-nav li  a{
+  color: white !important;
+  border-bottom: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hob-main-nav li  a::after {
+  content: '|';
+  color: #ddd;
+  display: inline-block;
+  margin: 0 0 0 2em ;
+  height: 5px;
+}
+
+
+/* END HOB EXPECT HOME PAGE NAV BAR */
+
+/* Hero Header */
+.hero-header-contain{
+  height: 50px;
+  margin-top: 10px;
+}
+.hero-header{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.hero-header li{
+  display: inline-block;
+  text-align: center;
+}
+.hero-header li+ li:before  {
+  content: '>';
+  color: #000;
+  display: inline-block;
+  margin: 0 0.5em 0 0 ;
+}
+.hero-header li:nth-last-child(3) a, .hero-header li:nth-last-child(2) a {
+  border-radius: 20px;
+  background-color: #ebebeb;
+  padding: 10px;
+} 
+.book-details{
+  display: grid;
+  grid-template-columns:20% auto ;
+}
+.Categories-section-product-details{
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.Categories-section-product-details .header-category{
+  border-bottom: 1px solid #000;
+  padding:10px;
+  text-align: center;
+  list-style-type: none;
+}
+.second-header-category{
+  padding:10px;
+  text-align: center;
+  list-style-type: none;
+}
+.second-header-category span{
+  border-bottom: 1px solid #000;
+  font-size: 15px;
+  padding:10px;
+}
+.normal-category{
+  list-style-type: none;
+  padding-left: 20%;
+}
+.normal-category #active{
+  font-weight: 800;
+}
+.recent-book-list{
+  margin-top: 40px;
+}
+.recent-book-list-header{
+   border-bottom: 1px solid #000;
+}
+.recent-book-list-header span{
+  border-bottom: 5px solid #f39636;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.recent-added-book-list{
+  display: grid;
+  grid-template-columns:30% auto ;
+}
+.recent-added-book-list img{
+  margin-left: -50px;
+  width: 150px;
+}
+.recent-added-book-list span{
+ font-size: 12px;
+ margin-top: 20px;
+}
+.book-details-img-content{
+  display: grid;
+  grid-template-columns:35% auto ;
+}
+.book-image img{
+   width: 110%;
+}
+.book-content-details li{
+  list-style: none;
+  display: inline;
+}
+.book-content-details-header{
+  border-bottom: 1px solid #000;
+}
+/* End Hero Header */
