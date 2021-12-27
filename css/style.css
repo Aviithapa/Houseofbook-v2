@@ -1083,7 +1083,7 @@ transform: scale(1);
 
 /* HOB EXPECT HOME PAGE NAV BAR */
 .navbar-main{
-  height: 50px;
+  height: 43px;
 }
 .hob-main-navbar{
   background-color: #f39636;
@@ -1380,4 +1380,104 @@ transform: scale(1);
   background-color: #f39636;
   margin-top: 20px;
 }
+
 /* End Second Hand Page  */
+.about-banner h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.about-cotent{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 14%;
+  margin-right: 14%;
+  
+}
+.about-sub-heading{
+  text-align: center;
+  font-weight: 700;
+  color: #68A84B;
+  font-size: 26px;
+}
+
+.about-desription{
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.services-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-flex-container > div {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f1f1f1;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 5px;
+  width: 30%;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.services-flex-container > div >span {
+ margin-top: 10px;
+ text-transform: uppercase;
+}
+
+.awards-content{
+  width: 100vw;
+  height: 300px;
+  background-color: #F2EFEF;
+}
+
+.awards-recognition-box{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.awards{
+  background-color: #fff;
+  border-radius: 20px;
+  padding:20px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.awards-heading{
+ font-size: 28px;
+ font-weight: 700;
+ text-transform: uppercase;
+ text-align: center;
+}
+.message-container{
+  display: grid;
+  grid-template-columns: 70% auto;
+  text-align: justify;
+}
+.message-container img{
+  width: 80%;
+  height: auto;
+}
+.team-ul{
+  display: inline;
+
+}
+.team-image{
+  display: inline;
+  width: 275px;
+  height: 275px;
+  text-align: center;
+}
+
+.team-image img{
+  width: 275px;
+  height: 275px;
+}
